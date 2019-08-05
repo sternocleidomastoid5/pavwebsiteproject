@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Eater|Knewave|Metal+Mania|Nosifer|Rock+Salt|Sedgwick+Ave+Display&display=swap');
+/*
+font-family: 'Rock Salt', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Metal Mania', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+*/
+
+h1 {
+    color:rgb(167, 29, 29);
+    font-family: 'Nosifer', serif;
+}
+.center{
+    text-align: center;
+}
+p{
+    color: beige;
+    font-family: 'Cinzel', serif;
+    width: 65vw;
+    box-sizing: border-box;
+    padding: 50px 50px 50px 100px;
+}
+p2 {
+    color:yellow;
+}
+body {
+    background-image: url(ITbackground.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: black;
+}
