@@ -77,3 +77,28 @@ p3 {
 }
 */
 
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+ }
+ 
+ .content {
+    padding: 25px;
+    background-color: rgba(#000, .3);
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    
+    h1 {
+       font-family: 'Roboto Slab', serif;
+       margin: 0;
+       color: #fff;
+    }
+ }
